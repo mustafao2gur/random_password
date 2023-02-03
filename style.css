@@ -1,0 +1,31 @@
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.praf{
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   width: 150px;
+   height: 100px;
+   background-color: #011d41;
+   color: #f17c12;
+}
+.btn{
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color:#027D8a;
+    color:#b6f7fc ;
+}
+.btn:hover{
+    cursor: pointer;
+      background-color: #b6f7fc;
+    color:#027D8a;
+}
